@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #441f88;
+    padding: 20px;
+    color: white;
+}
+
+.indice {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a :hover {
+    color: #171717; }
+
+hr {
+    border: none;
+    height: 60px;
+    background-color: #5c20c6;
+}
+
+section {
+    padding: 20px;
+}
+
+.formulario h2, .sobre h2, .home-texto h1, .home-texto h3 {
+    text-align: center;
+}
+
+.home {
+    text-align: center;
+    padding: 50px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.principal {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    margin-left: 30px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contate {
+    padding-right: 100px;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    padding-left: 300px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #5c20c6;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
